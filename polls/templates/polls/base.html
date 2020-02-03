@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <title>Title</title>
+    <link rel="stylesheet"type="text/css"href="{% static 'polls/style.css' %}"/>
+     <link rel="stylesheet"type="text/css"href="{% static 'polls/bootstrap-4.4.1-dist/bootstrap.min.css' %}"/>
+</head>
+<body>
+<hr>
+<p>header</p>
+<hr>
+{% block main_content  %}
+{% endblock %}
+{% include 'polls/footer.html' %}
+</body>
+</html>
